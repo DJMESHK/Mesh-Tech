@@ -26,7 +26,7 @@ jobs:
     - name: Install libraries
       run: npm install
 
-    - name: Start Suhail-Md
+    - name: Start MESH-Md
     
       env:
           OWNER_NAME: 
