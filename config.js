@@ -71,7 +71,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "*Powered by Mesh KE*", 
+  caption : global.caption || "", 
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
