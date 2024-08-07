@@ -5,10 +5,10 @@
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Mesh KE || node .",
-            "suhail": "pm2 start . --deep-monitoring --attach --name Mesh KE || node .",
-            "start": "pm2 start . --attach --name Mesh KE",
-            "stop": "pm2 stop Mesh KE",
+            "run": "pm2 start . --deep-monitoring --attach --name Suhai || node .",
+            "suhail": "pm2 start . --deep-monitoring --attach --name Suhai || node .",
+            "start": "pm2 start . --attach --name Suhail",
+            "stop": "pm2 stop Suhail",
             "old-heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
             "dbs--postinstall": "npx puppeteer@latest install --y"
